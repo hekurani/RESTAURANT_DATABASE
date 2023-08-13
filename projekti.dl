@@ -1,0 +1,128 @@
+tavolina(1, jo_e_lire).
+tavolina(2, jo_e_lire).
+tavolina(3, e_lire).
+tavolina(4, jo_e_lire).
+tavolina(5, e_lire).
+tavolina(6, e_lire).
+tavolina(7,jo_e_lire).
+tavolina(8,e_lire).
+tavolina(9,e_lire).
+tavolina(10,e_lire).
+tavolina(11,jo_e_lire).
+tavolina(12,e_lire).
+tavolina(13,jo_e_lire).
+tavolina(14,jo_e_lire).
+
+
+konsumatoret(1, art,krasniqi, 044163572, prishtine).
+konsumatoret(2, bujar,gashi, 045718234, peje).
+konsumatoret(3, gent,morina, 049916761, prizren).
+konsumatoret(4, nora,sejdiu, 044101010, prishtine).
+konsumatoret(5, agon,fehmiu, 044234522, ferizaj).
+konsumatoret(6, petrit,qelaj, 043219913, mitrovice).
+konsumatoret(7, sara,kabashi, 049691167, gjilan).
+konsumatoret(8, festim,arifi, 044111342, gjakove).
+konsumatoret(9, endrit,syla, 043456391, vushtrri).
+konsumatoret(10, lisa,dedinca, 045515276, prishtine).
+konsumatoret(11, antigona,hoxhaj, 044233600, suhareke).
+konsumatoret(12, arianit,mazrekaj, 044723722, istog).
+konsumatoret(13, kujtim,kryeziu, 043398310, peje).
+
+
+
+stafi(1, arsim,isufi, menaxher, 700, rr_AbdylFrasher_Nr45, 049778334).
+stafi(2, dardan,bytyqi, menaxher, 700,rr_Demokracia_Nr1, 044332146).
+stafi(3, elena,krasniqi, krye_Kuzhiniere, 650,rr_FehmiAgani_Nr137, 044179312).
+stafi(4, etnik,gashi, krye_Kuzhinier, 600,rr_AgimRamadani_Nr86, 049458221).
+stafi(5, besnik,bislimi, kuzhinier, 600,rr_BillClinton_Nr56, 049384574).
+stafi(6, haxhie,dacaj, kuzhiniere, 600,rr_BedriPejani_Nr44, 045962135).
+stafi(7, festim,avdiu, kuzhinier, 600,rr_Bingen_Nr33, 044554724).
+stafi(8, endrit,kastrati, kuzhinier, 600,rr_HaxhiZeka_Nr36, 044722898).
+stafi(9, diona,nuriu, ndihmese_Kuzhiniere, 500,rr_LidhjaePejes_Nr69, 044225782).
+stafi(10, nora,vejsiu, ndihmese_Kuzhiniere, 500,rr_PjeterBogdani_Nr53, 049452133).
+stafi(11, altin,morina, kamarier, 400,rr_RemziAdemi_Nr77, 044651134).
+stafi(12, petrit,hoxha, kamarier, 400,rr_Shkodra_Nr31, 049778342).
+stafi(13, zane,hasani, kamariere, 400,rr_Tomorri_Nr89, 044114322).
+stafi(14, krenar,spahiu, kamarier, 400,rr_YmerPrizreni_Nr62, 044834244).
+stafi(15, kaltrina,agolli, kamariere, 400,rr_GjergjFishta_Nr22, 049556434).
+stafi(16, bujar,arifi, kamarier, 400, rr_ZahirPajaziti, 049439022).
+
+
+
+
+					
+
+booking(100,'21/09/2022','25/09/2022',	11,	1,2,	jo).
+booking(101,'23/09/2022','25/09/2022',	2,	4,11,	po).
+booking(102,'24/09/2022','30/09/2022',	13,	5,9,	jo).
+booking(103,'12/10/2022','13/10/2022',	13,	8,8,	po).
+booking(104,'17/10/2022','20/10/2022',	1,	10,13,	jo).
+booking(105,'18/10/2022','20/10/2022',	12,	9,7,	jo).
+booking(106,'24/10/2022','30/10/2022',	12,	13,6,	jo).
+booking(107,'30/10/2022','07/11/2022',	8,	3,5,	jo).
+booking(108,'02/11/2022','12/11/2022',	9,	7,4,	jo).
+booking(109,'06/11/2022','12/11/2022',	15,	11,2,	po).
+booking(110,'10/11/2022','15/11/2022',	15,	12,9,	po).
+booking(111,'12/11/2022','28/11/2022',	1,	4,10,	jo).
+booking(112,'16/11/2022','05/12/2022',	2,	1,11,	jo).
+booking(113,'01/01/2023','01/01/2023',	2,	13,11,jo).
+
+
+
+rating(1,	'25/09/2022',	5).
+rating(3,	'07/11/2022',	3).
+rating(4,	'25/09/2022',	4).
+rating(7,	'12/11/2022',	5).
+rating(7,	'15/11/2022',	3).
+rating(8,	'13/10/2022',	2).
+rating(10,	'20/10/2022',	4).
+rating(11,	'12/11/2022',	1).
+rating(5,	'30/09/2022',	1).
+rating(2,	'28/11/2022',	3).
+rating(1,	'30/09/2022',	5).
+rating(13,	'30/10/2022',	4).
+rating(12,	'15/11/2022',	4).
+
+menu(1,mengjesi,omelet,	'Omelet standarde me veze dhe salcice'	,2). 
+menu(2,mengjesi,drithera,	'Drithera thekre me mjalte'	,2 ).
+menu(3,misherat,kombinim,	'Kombinim i llojeve te mishrave, mish pule dhe vici'	,6 ).
+menu(4,misherat,tave_viqi,	'Tave me mish vici dhe perime te ferguara'	,5 ).
+menu(5,picat,pepperoni,	'Pice peperoni'	,4 ).
+menu(6,pastat,spaghetti, 'Bolognese Spaghetti me sos Bolonjez' 	,3.50). 
+menu(7,picat,vegetarian,	'Pica me perime,domate, speca, rukolle'	,4). 
+menu(8,deserti,bakllava,	'Bakllava tradicionale'	,1.50 ).
+menu(9,picat,margarita,	'Pice me vetem djath cheddar'	,3 ).
+menu(10,misherat,ramstek,	'Mish ramstek i pjekur ne skare'	,7 ).
+menu(11,pastat,mac_N_Cheese,	'Makarona me sos djathi te shkrire'	,4.50 ).
+menu(12,mengjesi,petulla,	'Petulla amerikane me shurup boronice'	,2.50). 
+menu(13,deserti,akullore, 'Akullore e restaurantit: dredhez, vanille, cokollate' ,1.80). 
+
+
+porosia(1, 2 , 12, 'Drithera, Pepperoni, Bakllava' , '25/09/2022').
+porosia(2, 11 , 12, 'Kombinim, Ramstek, Akullore' , '25/09/2022').
+porosia(3, 9, 11, 'Pepperoni, Vegetarian, Margarita, Pepperoni' , '30/09/2022').
+porosia(4, 8 , 14, 'Petulla, Omelet, Drithera' , '13/10/2022').
+porosia(5, 13 , 15, 'Tavë viqi, Mac N Cheese, Akullore' , '20/10/2022').
+porosia(6, 7 , 16, 'Bakllava, Margarita, Petulla' , '20/10/2022').
+porosia(7, 6 , 13, 'Pepperoni, Vegetarian, Spaghetti Bolognese' , '30/10/2022').
+porosia(8, 5 , 13, 'Omelet, Omelet, Drithera' , '07/11/2022').
+porosia(9, 4 , 12, 'Kombinim, Ramstek, Bakllava' , '12/11/2022').
+porosia(10, 2 , 11, 'Petulla, Akullore, Drithera, Bakllava' , '12/11/2022').
+porosia(11, 9 , 14, 'Pepperoni, Vegetarian, Margarita, Pepperoni' , '15/11/2022').
+porosia(12, 10 , 15, 'Drithera' , '28/11/2022').
+porosia(13, 11 , 16, 'Spaghetti Bolognese, Mac N Cheese' , '05/12/2022').
+
+
+anulim(E):-booking(A,B,C,D,E,F,G),G=po.
+klientetAnuluar(B,C):-konsumatoret(A,B,C,D,F),anulim(A).
+
+bookinga(A1,E1):-booking(A1,B,C,D,E1,F,G).
+bookingb(A2,E2):-booking(A2,B,C,D,E2,F,G).
+bookingc(A1,E1):-bookinga(A1,E1),bookingb(A2,E2),A1\=A2,E1=E2.
+klientetSePakuDyhere(B,C):-konsumatoret(E1,B,C,D,F),bookingc(A1,E1).
+
+pagat(B,C):-stafi(A,B,C,D,E,F,G),E>500.
+klientId(E):-booking(A,B,C,D,E,F,G),B='01/01/2023'.
+klientiEmerMbiemer(B,C):-konsumatoret(A,B,C,D,F),klientId(A).
+tabela(B,C):-klientiEmerMbiemer(B,C);pagat(B,C).
+
